@@ -57,7 +57,7 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/qtb-logo-3-bg.png"
                   alt="logo"
                   width={140}
                   height={30}
