@@ -1,14 +1,29 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-cover bg-center bg-no-repeat pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
-        style={{ backgroundImage: "url('/images/hero/headerImg.png')" }}
+        className="relative z-10 overflow-hidden bg-center bg-no-repeat pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
+        {/* Preload background image */}
+        <link rel="preload" href="/images/hero/headerImg_optimized.png" as="image" />
+
+        {/* Optimized background image using next/image */}
+        <div className="absolute inset-0 z-[-1]">
+          <Image
+            src="/images/hero/headerImg.png"
+            alt="Hero Background"
+            layout="fill"
+            objectFit="cover"
+            quality={80} // Adjust quality for a smaller file size
+            priority // Ensures the image is loaded early
+          />
+        </div>
+
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
@@ -73,6 +88,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 ///////////////////////////////////
