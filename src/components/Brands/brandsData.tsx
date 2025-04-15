@@ -38,8 +38,8 @@ const brandsData: Brand[] = [
   },
   {
     id: 5,
-    name: "PlainAdmin",
-    href: "https://plainadmin.com",
+    name: "react-native",
+    href: "",
     image: "/images/brands/plainadmin.svg",
     imageLight: "/images/brands/plainadmin-light.svg",
   },

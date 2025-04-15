@@ -6,27 +6,27 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    designation: "Owner @ChyTaxOffice",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Our office runs smoother than ever. The network is fast, secure, and perfectly organized for our workflow. We don’t even have to think about the tech — it just works.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Devid Shindler",
+    designation: "Founder @SchindlerPharmacy",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "As a new business owner i needed a computer network for my pharmacy. I was worried about the cost and complexity, but the team made it easy. They set up everything quickly and efficiently.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Mike Piazza",
+    designation: "Founder @PiazzaRealEstate",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "As my business grew i needed a new way to store my digital work files. The team helped me set up a cloud storage system that keeps everything organized and easy to access. They reduced costs and improved my workflow.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Clients Say About The Bros"
+          paragraph="Real feedback from businesses we proudly support — honest, unfiltered, and straight from the people we work with."
           center
         />
 

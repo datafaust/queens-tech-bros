@@ -34,8 +34,8 @@ const Hero = () => {
                 <h2 className="mb-5 text-3xl font-bold italic leading-tight text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   IT Solutions For Your Business
                 </h2>
-                <p className="mb-12 text-base leading-relaxed! text-white sm:text-lg md:text-xl">
-                  Something something something
+                <p className="mb-12 text-base leading-relaxed! text-white font-bold md:text-lg md:text-xl">
+                  Serving The Tristate Area!
                 </p>
 
                 {/* ✨ Animated Button with Gleam Effect */}

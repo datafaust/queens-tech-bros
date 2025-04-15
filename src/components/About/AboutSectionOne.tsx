@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Crafted for New and Growing Busineses."
+                paragraph="We specialize in IT solutions built for new and growing businesses — from setting up networks to ongoing tech support. Our services are flexible, reliable, and crafted to help small teams operate smoothly and scale with confidence."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Stay connected with fast, reliable internet" />
+                    <List text="Fix tech issues before they slow you down" />
+                    <List text="Easily share files and devices across your office" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Keep your data safe and easy to recover" />
+                    <List text="Protect your business from online threats" />
+                    <List text="Build a strong tech setup that grows with you" />
                   </div>
                 </div>
               </div>
