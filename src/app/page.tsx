@@ -12,9 +12,11 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+  title: "Queens Tech Bros | NYC IT Solutions",
+  description: "Expert IT support, WiFi optimization, and tech solutions in NYC.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function Home() {

@@ -99,7 +99,7 @@ const featuresData: Feature[] = [
       className="rounded-md"
     />
     ),
-    title: "Website Design, Hosting & Managemen",
+    title: "Website Design, Hosting & Management",
     paragraph:
       "Get a clean, professional website designed, hosted, and managed—so you can focus on your business.",
   },
