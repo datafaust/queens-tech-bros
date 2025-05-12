@@ -1,59 +1,34 @@
 import Image from "next/image";
-
+import TeamMemberCard from "../../components/TeamCard/TeamCard";
+import faustoHeadshot from "../../../public/images/team/faustoHeadshot.jpeg"; 
+import nicholasHeadshot from "../../../public/images/team/nicoHeadshot.jpg";
 const AboutSectionTwo = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
-      <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
-          <div className="w-full px-4 lg:w-1/2">
-            <div
-              className="relative mx-auto mb-12 aspect-25/24 max-w-[500px] text-center lg:m-0"
-              data-wow-delay=".15s"
-            >
-              <Image
-                src="/images/about/about-image-2.svg"
-                alt="about image"
-                fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-              />
-              <Image
-                src="/images/about/about-image-2-dark.svg"
-                alt="about image"
-                fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-              />
-            </div>
-          </div>
-          <div className="w-full px-4 lg:w-1/2">
-            <div className="max-w-[470px]">
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
-                </p>
-              </div>
-            </div>
+    <section className="py-16 md:py-20 lg:py-28 bg-gray-900">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col items-center">
+          <h1 className="text-center text-4xl font-bold mb-3 text-white">
+            Meet The Team!
+          </h1>
+          <p className="text-base text-center md:text-lg text-amber-400 font-bold mb-12">
+            Get to know the talented people behind our mission.
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-25">
+            <TeamMemberCard
+              name="Fausto Lopez"
+              title="Founder"
+              accolades={`🎖️ U.S. Marine Corps Veteran\n🎓 B.S. in Networking & Security\n☁️ AWS Certified Practitioner\n💻 Web Development Certified`}
+              description="Fausto is a visionary leader with a decade of experience in scaling tech ventures and driving innovation."
+              image={faustoHeadshot}
+            />
+            <TeamMemberCard
+              name="Nicholas Lopez"
+              title="Co-Founder"
+              accolades={`🎖️ U.S. Marine Corps Veteran\n🎓 B.S. in Networking & Security\n☁️ AWS Certified Practitioner\n💻 Web Development Certified`}
+              description="Nicholas brings a strong work ethic and focus to every project, shaped by his service in the U.S. Marine Corps. With a background in Networking and Security, he works on building and maintaining reliable and secure networks, and uses cloud tools like AWS to support business infrastructure. He’s also a web developer who has built websites and apps for small businesses—helping them advertise, connect with customers, and grow their presence online."
+              image={nicholasHeadshot}
+            />
           </div>
         </div>
       </div>

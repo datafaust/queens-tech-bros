@@ -63,6 +63,43 @@ const AboutSectionOne = () => {
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
+                {/* <div className="flex flex-col">
+                  <div className="">
+                    <h1 className="text-center">MEET THE TEAM</h1>
+                  </div>
+                  <div className="flex justify-around text-center">
+                    <div className="p-5">
+                      <div className="flex flex-col items-center text-center space-y-2">
+                        <img 
+                          src="https://media.istockphoto.com/id/1288129985/vector/missing-image-of-a-person-placeholder.jpg?s=612x612&w=0&k=20&c=9kE777krx5mrFHsxx02v60ideRWvIgI1RWzR1X4MG2Y=" 
+                          className="w-20 h-20 rounded-full object-cover"
+                        />
+                        <h2 className="text-lg font-semibold">Alex Johnson</h2>
+                        <p className="text-sm text-gray-600">Chief Executive Officer</p> 
+                        <p className="text-xs text-gray-500 italic">Forbes 30 Under 30, TechCrunch Disrupt Winner</p>
+                        <p className="text-sm text-gray-700 max-w-xs">
+                          Alex is a visionary leader with over 10 years of experience in technology startups. 
+                          Known for innovation and strategic thinking, he has led multiple successful product launches.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="p-5">
+                      <div className="flex flex-col items-center text-center space-y-2">
+                        <img 
+                          src="https://media.istockphoto.com/id/1288129985/vector/missing-image-of-a-person-placeholder.jpg?s=612x612&w=0&k=20&c=9kE777krx5mrFHsxx02v60ideRWvIgI1RWzR1X4MG2Y=" 
+                          className="w-20 h-20 rounded-full object-cover"
+                        />
+                        <h2 className="text-lg font-semibold">Samantha Lee</h2>
+                        <p className="text-sm text-gray-600">CTO</p> 
+                        <p className="text-xs text-gray-500 italic">MIT Alum, Women in Tech Award 2023</p>
+                        <p className="text-sm text-gray-700 max-w-xs">
+                          Samantha is a tech innovator with a passion for scalable architecture and AI integration. 
+                          She has led engineering teams at Fortune 500 companies and co-founded two startups.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div> */}
               </div>
             </div>
           </div>
