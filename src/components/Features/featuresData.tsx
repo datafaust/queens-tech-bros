@@ -8,6 +8,8 @@ import itprinter from "../../../public/images/brands/services/it-printer.jpeg";
 import itcyber from "../../../public/images/brands/services/it-cyber.jpeg";
 import webdesign from "../../../public/images/brands/services/it-webdesign.jpeg";
 import ai from "../../../public/images/brands/services/it-aiauto.jpeg";
+import itsecurity from "../../../public/images/brands/services/it-security-cam.jpeg";
+import { it } from "node:test";
 
 const w = 200;
 const l = 200;
@@ -102,6 +104,21 @@ const featuresData: Feature[] = [
     title: "Website Design, Hosting & Management",
     paragraph:
       "Get a clean, professional website designed, hosted, and managed—so you can focus on your business.",
+  },
+  {
+    id: 7,
+    icon: (
+      <Image
+      src={itsecurity}
+      alt="security-cam"
+      width={w}
+      height={l}
+      className="rounded-md"
+    />
+    ),
+    title: "Security Cameras and Surveillance Systems",
+    paragraph:
+      "See everything, from anywhere. We install smart cameras with mobile access.",
   },
 ];
 export default featuresData;

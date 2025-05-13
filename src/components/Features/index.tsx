@@ -7,11 +7,12 @@ const Features = () => {
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
-          <SectionTitle
-            title="Our Services"
-            paragraph="What We Offer to Keep Your Tech in Check."
-            center
-          />
+        <SectionTitle
+          title="Everything We Offer"
+          paragraph="Browse our full range of IT services, built to support your tech from the ground up."
+          center
+        />
+
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map((feature) => (

@@ -24,27 +24,46 @@ const Contact = () => {
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                 Want to Contact Us?
               </h2>
-              <p className="mb-12 text-base font-medium text-body-color">
-                For any inquiries, please email: queenstechbros@gmail.com or call us at either of the numbers below:
-                <br />
-                <br/>
-                (646) 543-5536
-                <br />
-                (646) 639-3360
-              </p>
+              <div className="mb-12 text-base font-medium text-body-color">
+                <p>
+                  For any inquiries, please email:{" "}
+                  <a
+                    href="mailto:queenstechbros@gmail.com"
+                    className="text-amber-600 hover:text-amber-700 hover:underline transition"
+                  >
+                    queenstechbros@gmail.com
+                  </a>{" "}
+                  or call us at either of the numbers below:
+                </p>
 
+                <div className="mt-4 flex flex-col gap-2">
+                  <a
+                    href="tel:6465435536"
+                    className="text-amber-600 text-3xl hover:text-amber-700 hover:underline transition cursor-pointer"
+                  >
+                    (646) 543-5536
+                  </a>
+                  <p>--------------------------</p>
+                  <a
+                    href="tel:6466393360"
+                    className="text-amber-600 text-3xl hover:text-amber-700 hover:underline transition cursor-pointer"
+                  >
+                    (646) 639-3360
+                  </a>
+                </div>
+              </div>
               <div>
                 <p>
-                  You can also schedule a meeting with us below.
+                  Schedule a time and date and we will get back to you as soon as possible!
                 </p>
               </div>
 
               <button
                 onClick={() => setIsOpen(true)}
-                className="mt-6 inline-flex items-center gap-2 rounded-xs bg-primary px-6 py-3 text-white font-medium shadow-submit hover:bg-primary/90 transition duration-300 dark:shadow-submit-dark"
+                className="mt-6 inline-flex items-center gap-2 rounded-xs bg-primary px-6 py-3 text-white font-medium shadow-submit hover:bg-primary/90 transition duration-300 dark:shadow-submit-dark cursor-pointer"
               >
                 <FaCalendar className="h-5 w-5" />
-                Schedule a Meeting
+                Schedule a Phone Meeting
               </button>
 
               {/* ✅ Show modal only after rootElement is available */}
