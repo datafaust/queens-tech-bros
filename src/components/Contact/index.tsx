@@ -33,7 +33,7 @@ const Contact = () => {
                   >
                     queenstechbros@gmail.com
                   </a>{" "}
-                  or call us at either of the numbers below:
+                  or call/text us at either of the numbers below:
                 </p>
 
                 <div className="mt-4 flex flex-col gap-2">
