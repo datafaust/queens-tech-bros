@@ -18,8 +18,8 @@ const AboutSectionTwo = () => {
             <TeamMemberCard
               name="Fausto Lopez"
               title="Founder"
-              accolades={`🎖️ U.S. Marine Corps Veteran\n🎓 B.S. in Networking & Security\n☁️ AWS Certified Practitioner\n💻 Web Development Certified`}
-              description="Fausto is a visionary leader with a decade of experience in scaling tech ventures and driving innovation."
+              accolades={`🛠️ Full Stack Developer\n🎓 M.S. in Applied Research\n☁️ AWS Certified Developer\n💻 Data Science Certified`}
+              description="Fausto is a seasoned technology leader with over a decade of experience across the private, public, and nonprofit sectors. He specializes in building scalable applications, designing robust infrastructures, developing high-performance APIs, and transforming complex data into actionable insights. With a deep understanding of each sector's unique challenges, Fausto delivers integrated, data-driven solutions that bridge the gap between mission and execution."
               image={faustoHeadshot}
             />
             <TeamMemberCard
