@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
@@ -20,6 +21,20 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      // Wait until hydration finishes before scrolling
+      setTimeout(() => {
+        const el = document.querySelector(hash);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    }
+  }, []);
+  
   return (
     <>
       <ScrollUp />
@@ -32,7 +47,7 @@ export default function Home() {
       <Testimonials />
       {/* <Pricing /> */}
       {/* <Blog /> */}
-      <Contact />
+      <Contact/>
     </>
   );
 }
