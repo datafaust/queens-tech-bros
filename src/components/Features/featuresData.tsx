@@ -9,6 +9,7 @@ import itcyber from "../../../public/images/brands/services/it-cyber.jpeg";
 import webdesign from "../../../public/images/brands/services/it-webdesign.jpeg";
 import ai from "../../../public/images/brands/services/it-aiauto.jpeg";
 import itsecurity from "../../../public/images/brands/services/it-security-cam.jpeg";
+import qtbForge from "../../../public/images/brands/services/qtb-forge.jpg";
 
 const w = 200;
 const l = 200;
@@ -122,9 +123,13 @@ const featuresData: Feature[] = [
   {
     id: 8,
     icon: (
-      <div className="flex h-[200px] w-[200px] items-center justify-center rounded-md border border-amber-600/40 bg-slate-700 text-4xl font-bold text-amber-500">
-        3D
-      </div>
+      <Image
+      src={qtbForge}
+      alt="3D printing services"
+      width={w}
+      height={l}
+      className="rounded-md"
+    />
     ),
     title: "3D Printing Services",
     paragraph: (
