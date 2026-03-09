@@ -9,7 +9,7 @@ import itcyber from "../../../public/images/brands/services/it-cyber.jpeg";
 import webdesign from "../../../public/images/brands/services/it-webdesign.jpeg";
 import ai from "../../../public/images/brands/services/it-aiauto.jpeg";
 import itsecurity from "../../../public/images/brands/services/it-security-cam.jpeg";
-import { it } from "node:test";
+import qtbForge from "../../../public/images/brands/services/qtb-forge.jpg";
 
 const w = 200;
 const l = 200;
@@ -119,6 +119,33 @@ const featuresData: Feature[] = [
     title: "Security Cameras and Surveillance Systems",
     paragraph:
       "See everything, from anywhere. We install smart cameras with mobile access.",
+  },
+  {
+    id: 8,
+    icon: (
+      <Image
+      src={qtbForge}
+      alt="3D printing services"
+      width={w}
+      height={l}
+      className="rounded-md"
+    />
+    ),
+    title: "3D Printing Services",
+    paragraph: (
+      <>
+        Setup for your 3D printer plus custom design and print services for one-off parts, prototypes, and personalized pieces. Check out our print shop on Etsy:{" "}
+        <a
+          href="https://qtb3dforge.etsy.com"
+          target="_blank"
+          rel="noreferrer"
+          className="text-amber-500 underline underline-offset-2"
+        >
+          qtb3dforge.etsy.com
+        </a>
+        .
+      </>
+    ),
   },
 ];
 export default featuresData;

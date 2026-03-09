@@ -17,8 +17,8 @@ const Hero = () => {
           <Image
             src="/images/hero/headerImg.png"
             alt="Hero Background"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: "cover" }}
             quality={80} // Adjust quality for a smaller file size
             priority // Ensures the image is loaded early
           />
